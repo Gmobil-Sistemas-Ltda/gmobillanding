@@ -1,87 +1,71 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.gmobil.com.br/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.gmobil.com.br/forca-de-vendas/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.gmobil.com.br/software-b2b/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.gmobil.com.br/aplicativo-representante-comercial/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.gmobil.com.br/portal-franqueado/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.gmobil.com.br/business-intelligence/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.gmobil.com.br/integracao-erp/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.gmobil.com.br/blog/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.gmobil.com.br/blog/sistema-para-representantes-comerciais/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.gmobil.com.br/blog/como-integrar-forca-de-vendas-ao-erp/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.gmobil.com.br/blog/vender-offline-equipe-externa/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.gmobil.com.br/blog/o-que-e-portal-b2b/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.gmobil.com.br/blog/como-usar-bi-para-aumentar-vendas/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.gmobil.com.br/politica-privacidade/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://www.gmobil.com.br/segmentos/moda/</loc>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://www.gmobil.com.br/segmentos/presentes/</loc>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://www.gmobil.com.br/segmentos/utilidades-domesticas/</loc>
+    <lastmod>2026-11-07</lastmod>
   </url>
 </urlset>
