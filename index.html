@@ -12,7 +12,10 @@
     <meta property="og:url" content="https://www.gmobil.com.br/" />
     <meta property="og:title" content="GMÓBIL | Software B2B para Força de Vendas e Representantes Comerciais" />
     <meta property="og:description" content="Software B2B para representantes comerciais, franquias e indústrias. Plataforma integrada ao ERP com força de vendas, catálogo digital, BI e vendas offline." />
-    <meta property="og:image" content="https://www.gmobil.com.br/imagens/hero-mulher-sacolas.png" />
+    <meta property="og:image" content="https://www.gmobil.com.br/imagens/og-gmobil.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="GMÓBIL — Software B2B e força de vendas integrado ao ERP" />
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:site_name" content="GMÓBIL" />
 
@@ -20,12 +23,13 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="GMÓBIL | Software B2B para Força de Vendas e Representantes Comerciais" />
     <meta name="twitter:description" content="Software B2B para representantes comerciais, franquias e indústrias. Plataforma com força de vendas, catálogo digital e BI integrado ao ERP." />
-    <meta name="twitter:image" content="https://www.gmobil.com.br/imagens/hero-mulher-sacolas.png" />
+    <meta name="twitter:image" content="https://www.gmobil.com.br/imagens/og-gmobil.jpg" />
 
+    <link rel="preload" as="image" href="./imagens/hero-mulher-sacolas.webp" type="image/webp" fetchpriority="high" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="icon" type="image/x-icon" href="imagens/favicon-50x50.png" />
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
     <script type="application/ld+json">
     [
       {
@@ -76,7 +80,7 @@
     </script>
     <script type="text/javascript" src="scripts.min.js" defer></script>
     <script type="text/javascript" src="app.min.js" defer></script>
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Nunito+Sans:wght@400;600;700&display=swap" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Nunito+Sans:wght@300;400;600;700&display=swap" />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Nunito+Sans:wght@300;400;600;700&display=swap"
       rel="stylesheet"
@@ -182,6 +186,21 @@
         opacity: 0.9;
         transform: translateY(-1px);
       }
+
+      .nav-links { align-items: center; }
+      .nav-links > li > span { font-family: "Nunito", sans-serif; font-weight: 700; font-size: 0.88rem; color: var(--muted); cursor: pointer; }
+      .nav-links > li > span:hover { color: var(--coral); }
+      .nav-dd { position: relative; padding: 1.6rem 0; }
+      .dd-menu { display: none; position: absolute; top: 100%; left: -1rem; min-width: 280px; background: #fff; list-style: none; padding: 0.6rem 0; border-radius: 12px; box-shadow: 0 12px 32px rgba(27, 42, 74, 0.14); border: 1px solid var(--border); }
+      .nav-dd:hover .dd-menu, .nav-dd:focus-within .dd-menu { display: block; }
+      .nav-links .dd-menu a { display: block; padding: 0.55rem 1.2rem; font-weight: 600; color: var(--navy); }
+      .nav-links .dd-menu a:hover { background: var(--off); color: var(--coral); }
+      @media (max-width: 960px) {
+        .nav-links { max-height: calc(100vh - 72px); overflow-y: auto; }
+        .nav-dd { padding: 0; }
+        .dd-menu { display: block; position: static; box-shadow: none; border: none; padding: 0.4rem 0 0 0.8rem; min-width: 0; }
+        .nav-links .dd-menu a { padding: 0.35rem 0; }
+      }
       .hamburger {
         display: none;
         flex-direction: column;
@@ -263,7 +282,7 @@
           opacity: 0.2;
         }
       }
-      .hero h1 {
+      .hero .hero-title {
         font-family: "Nunito", sans-serif;
         font-weight: 900;
         font-size: clamp(2.4rem, 4vw, 3.8rem);
@@ -1648,9 +1667,10 @@
       /></a>
       <ul class="nav-links">
         <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#solucoes">Soluções</a></li>
-        <li><a href="#vantagens">Vantagens</a></li>
+        <li class="nav-dd"><a href="#solucoes">Soluções ▾</a><ul class="dd-menu"><li><a href="/forca-de-vendas/">Força de Vendas (AFV)</a></li><li><a href="/aplicativo-representante-comercial/">Aplicativo para Representantes</a></li><li><a href="/software-b2b/">Software B2B para Franquias e Multimarcas</a></li><li><a href="/portal-franqueado/">Portal do Franqueado</a></li><li><a href="/business-intelligence/">Business Intelligence (BI)</a></li><li><a href="/integracao-erp/">Integração com ERP</a></li></ul></li>
+        <li class="nav-dd"><span tabindex="0">Segmentos ▾</span><ul class="dd-menu"><li><a href="/segmentos/moda/">Moda e Confecção</a></li><li><a href="/segmentos/presentes/">Presentes</a></li><li><a href="/segmentos/utilidades-domesticas/">Utilidades Domésticas</a></li></ul></li>
         <li><a href="#clientes">Clientes</a></li>
+        <li><a href="/blog/">Blog</a></li>
         <li><a href="#contato" class="nav-cta">Fale Conosco</a></li>
       </ul>
       <button class="hamburger" id="ham" aria-label="Menu">
@@ -1661,10 +1681,10 @@
     <section class="hero" id="inicio">
       <div class="hero-bg-r"></div>
       <div class="hero-left">
-        <!-- <div class="hero-tag">
-          <span class="dot"></span>Automação de Força de Vendas
-        </div> -->
-        <h1 style="font-family: Nunito, sans-serif;
+        <h1 class="hero-tag">
+          <span class="dot"></span>Software B2B e Força de Vendas para Representantes, Franquias e Indústrias
+        </h1>
+        <p class="hero-title" style="font-family: Nunito, sans-serif;
           font-weight: 900;
           font-size: clamp(2.4rem, 4vw, 3.8rem);
           line-height: 1.08;
@@ -1674,7 +1694,7 @@
           Nosso foco é<br /><span class="grad-text"
             >movimentar<br />as suas vendas</span
           >
-        </h1>
+        </p>
         <p style="color: #1c2b4d; line-height: 1.8; margin-bottom: 1.2rem; font-size: 20px; font-weight: 600; margin-right: 20px;">
           Software B2B completo para representantes comerciais, franquias e indústrias.<br/>
           Centralize pedidos, catálogos, dashboards e força de vendas em uma única plataforma integrada ao seu ERP.
@@ -1714,12 +1734,17 @@
         </div>
       </div>
       <div class="hero-right">
+        <picture>
+        <source srcset="./imagens/hero-mulher-sacolas.webp" type="image/webp" />
         <img
           src="./imagens/hero-mulher-sacolas.png"
+          width="541"
+          height="653"
           alt="Software B2B GMÓBIL — plataforma para força de vendas e representantes comerciais"
           class="hero-img"
           fetchpriority="high"
         />
+        </picture>
       </div>
     </section>
     <section class="sobre" id="sobre">
@@ -2947,7 +2972,7 @@ SATISFAÇÃO TOTAL."</p>
         </div>
         <div class="modal-screen">
           <img
-            src="./imagens/dash pedidos.png"
+            src="./imagens/dashboard-pedidos.png"
             alt="AFV Dashboards"
             style="
               
@@ -3017,7 +3042,7 @@ SATISFAÇÃO TOTAL."</p>
         </div>
         <div class="modal-screen">
           <img
-            src="./imagens/catalogo desk.png"
+            src="./imagens/catalogo-digital-desktop.png"
             alt="Catálogo AFV Desktop e Mobile"
             style="
               max-width: 540px;
@@ -3162,7 +3187,7 @@ SATISFAÇÃO TOTAL."</p>
         </div>
 
         <script type="text/javascript">
-            (function(){emailjs.init({publicKey:"uYfnlksCUO2B7Zgm7"});})();document.addEventListener("DOMContentLoaded",function(){const e=document.getElementById("demo-form");e&&e.addEventListener("submit",function(t){t.preventDefault();const b=e.querySelector("button[type=submit]");if(b){b.disabled=true;b.textContent="Enviando...";}emailjs.sendForm("service_gm","template_gmobil",this).then(()=>{e.style.display="none";const s=document.getElementById("demo-success");if(s)s.style.display="flex";}).catch(t=>{if(b){b.disabled=false;b.textContent="Enviar Mensagem";}alert("Erro: "+JSON.stringify(t))})})});</script>
+            document.addEventListener("DOMContentLoaded",function(){emailjs.init({publicKey:"uYfnlksCUO2B7Zgm7"});});document.addEventListener("DOMContentLoaded",function(){const e=document.getElementById("demo-form");e&&e.addEventListener("submit",function(t){t.preventDefault();const b=e.querySelector("button[type=submit]");if(b){b.disabled=true;b.textContent="Enviando...";}emailjs.sendForm("service_gm","template_gmobil",this).then(()=>{e.style.display="none";const s=document.getElementById("demo-success");if(s)s.style.display="flex";}).catch(t=>{if(b){b.disabled=false;b.textContent="Enviar Mensagem";}alert("Erro: "+JSON.stringify(t))})})});</script>
             
         <form class="modal-form" id="demo-form">
           <div class="form-row">
